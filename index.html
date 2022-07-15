@@ -21,14 +21,14 @@
 
     <main>
         <div class="container">
-            <!-- <h1><a style="text-decoration: none; color: tomato; margin-left: 0.25rem;" href="" onclick="location.reload();">Calculator</a></h1 > -->
+            <h1>JS Calculator</h1>
             <div class="calculator">
                 <input type="text" name="screen" id="answer" readonly>
                 <table>
                     <tr>
+                        <td><button style="background-color: #ee7111; font-weight: bold; color: #f1f4f5;">C</button></td>
                         <td><button class="bracket">(</button></td>
                         <td><button class="bracket">)</button></td>
-                        <td><button style="background-color: #ee7111; font-weight: bold; color: #f1f4f5;">C</button></td>
                         <td><button class="operator">%</button></td>
                     </tr>
                     <tr>
@@ -60,8 +60,10 @@
         </div>
     </main>
 
-    <footer>
-
+    <footer id="footer" class="py-3 text-dark mx-auto">
+        <section>
+            <small class= "d-flex justify-content-center m-3"> &copy; Copyright 2022 | preserved by: <a class="text-decoration-none ms-2" href="https://www.linkedin.com/in/sharif00112"><span class="honda-text-orange"> Sharif Hossain</span></a></small>
+        </section>
     </footer>
     <script src="/js/app.js"></script>
     <!-- importing bootstrap js from CDN  -->
